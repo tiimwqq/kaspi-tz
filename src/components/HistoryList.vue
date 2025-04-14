@@ -28,7 +28,7 @@ const historyItems: HistoryListItem[] = [
     payment: 5000.00,
   },
   {
-    logo: '../../public/Screenshot_9.png',
+    logo: '/Screenshot_9.png',
     title: 'Avtobys. Оплата проезда по QR',
     payment: 100.00,
   },

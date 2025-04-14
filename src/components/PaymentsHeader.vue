@@ -21,7 +21,7 @@ function handleClick(path: string) {
 </script>
 
 <template>
-  <div class="pt-3 bg-white flex flex-col w-full">
+  <div class="pt-3 bg-white flex flex-col w-full whitespace-nowrap">
     <!-- Заголовок -->
     <div class="py-3 flex items-center justify-center">
       <h1 class="text-lg text-gray-800 font-semibold">

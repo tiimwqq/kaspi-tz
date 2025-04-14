@@ -56,7 +56,7 @@ const frequentItems: PaymentListItem[] = [
     <div class="flex flex-col gap-2 w-full">
       <PaymentItem
         v-for="(item, idx) in frequentItems" :key="idx" :logo="item.logo" :title="item.title"
-        :subtitle="item.subtitle" :info-right="item.infoRight" @options-click="onOptionsClick(item)"
+        :subtitle="item.subtitle" :info-right="item.infoRight"
       />
     </div>
   </div>
