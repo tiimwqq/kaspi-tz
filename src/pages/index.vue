@@ -8,7 +8,6 @@ import SearchBar from '~/components/SearchBar.vue'
     <div class="rounded-b-xl bg-white">
       <SearchBar />
     </div>
-
     <PaymentList />
   </div>
 </template>
