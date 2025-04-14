@@ -8,6 +8,8 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AllPaymentsBlock: typeof import('./src/components/AllPaymentsBlock.vue')['default']
+    AllPaymentsGroup: typeof import('./src/components/AllPaymentsGroup.vue')['default']
     CategoryItem: typeof import('./src/components/CategoryItem.vue')['default']
     CategoryList: typeof import('./src/components/CategoryList.vue')['default']
     FrequentPayments: typeof import('./src/components/FrequentPayments.vue')['default']

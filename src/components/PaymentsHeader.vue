@@ -10,7 +10,7 @@ const emit = defineEmits<{
 }>()
 
 const tabs = [
-  { label: 'Все', path: '/all' },
+  { label: 'Все', path: '/payments/all' },
   { label: 'Мои платежи', path: '/payments' },
   { label: 'История', path: '/payments/history' },
 ]
