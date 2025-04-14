@@ -9,3 +9,11 @@ body,
 html.dark {
   color-scheme: dark;
 }
+
+@media (max-width: 400px) {
+  .image-phone-sm {
+    height: 80px !important;  /* например, замена h-26 на 80px */
+    width: 80px !important;
+    bottom: -25px !important;
+  }
+}

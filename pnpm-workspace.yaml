@@ -37,3 +37,6 @@ catalogs:
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
+catalog:
+  lucide-vue-next: ^0.487.0
+  tailwindcss: ^4.1.3
